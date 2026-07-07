@@ -1,0 +1,46 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code (commented out by default -- uncomment if you don't want to
+# share launch configs / tasks via version control)
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Platform build artifacts (generated once you run `flutter create .`)
+/android/app/debug
+/android/app/profile
+/android/app/release
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Flutter.podspec
+/ios/Pods/
+/ios/.symlinks/
