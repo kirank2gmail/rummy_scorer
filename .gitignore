@@ -44,3 +44,8 @@ app.*.map.json
 /ios/Flutter/Flutter.podspec
 /ios/Pods/
 /ios/.symlinks/
+
+# Local secrets -- copy lib/supabase_config.example.dart to this path and
+# fill in your real project URL/key. Never committed.
+lib/supabase_config.dart
+
